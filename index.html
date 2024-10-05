@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link rel="stylesheet" href="seu-estilo.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Remove a barra de navegação do SharePoint
+            var navBar = document.getElementById("suiteBar");
+            if (navBar) {
+                navBar.style.display = "none";
+            }
+            var ribbon = document.getElementById("s4-ribbonrow");
+            if (ribbon) {
+                ribbon.style.display = "none";
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>Bem-vindo à minha página personalizada!</h1>
+    <!-- Conteúdo da sua página aqui -->
+</body>
+</html>
